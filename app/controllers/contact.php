@@ -4,7 +4,7 @@ class Contact extends Controller
 {
     public function index()
     {
-        echo 'contact index';
+        require_once('view.header.php');
     }
 
     public function phone()
